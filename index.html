@@ -5,26 +5,32 @@
 <head>
     <!-- Meta Tags for SEO and social media sharing -->
     <meta charset="utf-8" />
-    <title>Engage - Webflow Ecommerce website template</title>
-    <meta content="Meet Engage: a elegante and vibrant marketing template built to capture attention." name="description" />
+    <title>Sewing Machine Repair in Roseville, CA | Top Service for All Brands | Sewllo</title>
+    <meta content="
+    Fast and reliable sewing machine repairs in Roseville, CA. 
+    We service modern & vintage machines from all major brands. Contact Sewllo today!
+    " name="description" />
     
     <!-- Open Graph Meta Tags for social media sharing -->
-    <meta content="Engage - Webflow Ecommerce website template" property="og:title" />
-    <meta content="Meet Engage: a elegante and vibrant marketing template built to capture attention." property="og:description" />
-    <meta content="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66e98011ca4bc1ee81341e6a_Open%20graph.png" property="og:image" />
+    <meta property="og:title" content="Sewing Machine Repair in Roseville, CA | Sewllo" />
+    <meta property="og:description" content="Fast, reliable sewing machine repair services in Roseville, CA. We fix modern & vintage machines from all major brands. Contact us now!" />
+    <meta property="og:image" content="https://www.yourwebsite.com/images/sewing-machine-repair.jpg" />
+    
     
     <!-- Twitter Meta Tags -->
-    <meta content="Engage - Webflow Ecommerce website template" property="twitter:title" />
-    <meta content="Meet Engage: a elegante and vibrant marketing template built to capture attention." property="twitter:description" />
-    <meta content="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66e98011ca4bc1ee81341e6a_Open%20graph.png" property="twitter:image" />
-    <meta property="og:type" content="website" />
-    <meta content="summary_large_image" name="twitter:card" />
+    <meta name="twitter:title" content="Sewing Machine Repair in Roseville, CA | Sewllo" />
+    <meta name="twitter:description" content="Get fast and reliable sewing machine repairs in Roseville, CA. We service modern and vintage machines. Call Sewllo for expert service!" />
+    <meta name="twitter:image" content="https://www.yourwebsite.com/images/sewing-machine-repair.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Canonical Tag -->
+    <link rel="canonical" href="https://www.sewllo.com/" />
 
     <!-- Viewport settings for responsive design -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <!-- Link to external stylesheet -->
-    <link href="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/css/engage-template.a30594f69.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/index-style.css" rel="stylesheet" type="text/css" />
 
     <!-- JavaScript for detecting touch devices and enabling specific classes -->
     <script type="text/javascript">
@@ -35,8 +41,8 @@
     </script>
 
     <!-- Favicon and Apple Touch Icons -->
-    <link href="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d1f59b51559d5661f60440_favicon.png" rel="shortcut icon" type="image/x-icon" />
-    <link href="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d1f5d27c2e698c39f71e51_webclip.png" rel="apple-touch-icon" />
+    <link href="images/sewllo-favicon.png" rel="shortcut icon" type="image/x-icon" />
+    <link href="images/sewllo-webclip.png" rel="apple-touch-icon" />
 
     <!-- Code to improve font quality -->
     <style>
@@ -63,6 +69,10 @@
 </head>
 
 <body>
+    <!-- Notification Bar Section -->
+    <div class="notification-bar">
+        <p>HUGE REPAIR DISCOUNTS 30% OFF CALL NOW</p>
+    </div>
     <div class="page-wrapper">
         <!-- Navbar Section -->
         <div class="navbar">
@@ -372,13 +382,23 @@
                         <div class="container-medium">
                             <div class="home-header_component">
                                 <div class="home-header_headline">
+                                    <!--
                                     <h1 class="hide">Say goodbye to broken Sewing Machinges</h1>
+                                    -->
+                                    <h1>Reliable Sewing Machine Repair in Roseville</h1>
                                     <!-- Hand emoji -->
+                                    <!--
                                     <div class="heading-style-h1 display-inline">Say goodbye </div><img
                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d098c45cd3f50efd3d21b8_waving-hand_1f44b.webp"
                                         loading="lazy" alt="waving hand icon" class="icon-large display-inline" />
+                                    -->
                                     <!-- Hand Emoji End -->
+                                    <div class="heading-style-h1">
+                                        <span class="emoji">👋</span> Say Goodbye to Broken Machines
+                                    </div>
+                                    <!--
                                     <div class="heading-style-h1 display-inline"> to broken sewing machines</div>
+                                    -->
                                     <!-- Label Beneath Header-->
                                     <!--
                                     <div class="home-header_label-wrap">
@@ -386,7 +406,7 @@
                                     </div>
                                     -->
                                     <!--Label beneath header end-->
-                                </div><a href="/contact/1" class="button is-large w-button">Get your Sewing Machine Repaired</a>
+                                </div><a href="tel:+14422691546" class="button is-large w-button">Get your Sewing Machine Repaired</a>
                             </div>
                         </div>
                     </div>
@@ -410,7 +430,7 @@
                                     transform-style: preserve-3d;
                                 "
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 218.549px, (max-width: 991px) 43vw, 90vw"
-                                srcset="images/sewing-white-lady.webp 500w, 
+                                srcset="images/sewing-lady-image-sewllo.webp 500w, 
                                         images/sewing-lady-image-sewllo-800.webp 800w, 
                                         images/sewing-lady-image-sewllo-1080.webp 1080w, 
                                         images/sewing-lady-image-sewllo.webp 1250w"
@@ -418,7 +438,7 @@
                             
                             <!-- Second image: Man smiling to the camera -->
                             <img 
-                                src="images/test.png" 
+                                src="images/vintage-sewing-machine.webp" 
                                 loading="eager" 
                                 alt="Man smiling to the camera" 
                                 class="home-header_image-2"
@@ -429,6 +449,11 @@
                                     transform: translate3d(0%, 0%, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0deg) skew(0, 0);
                                     transform-style: preserve-3d;
                                 "
+                                sizes="(max-width: 479px) 100vw, (max-width: 767px) 218.549px, (max-width: 991px) 43vw, 90vw"
+                                srcset="images/vintage-sewing-machine.webp 500w, 
+                                        images/vintage-sewing-machine.webp 800w, 
+                                        images/vintage-sewing-machine.webp 1080w, 
+                                        images/vintage-sewing-machine.webp 1250w"
                             />
                             
                             <!-- Third image: Woman texting on her cellphone -->
@@ -445,9 +470,9 @@
                                     transform-style: preserve-3d;
                                 "
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 47vw, (max-width: 991px) 341.919px, 93vw"
-                                srcset="sewing-white-lady-500.webp 500w, 
-                                        sewing-white-lady-800.webp 800w, 
-                                        sewing-white-lady-1080.webp 1080w, 
+                                srcset="images/sewing-white-lady-500.webp 500w, 
+                                        images/sewing-white-lady-800.webp 800w, 
+                                        images/sewing-white-lady-1080.webp 1080w, 
                                         images/sewing-white-lady.webp 1250w"
                             />
                             
@@ -500,8 +525,8 @@
                     <div class="container-medium">
                         <div class="home-solutions_component">
                             <div class="home-solutions_head">
-                                <h2>Our solutions</h2><a href="/solutions/1" class="button w-button">View all
-                                    solutions</a>
+                                <h2>Sewing Machines we Repair</h2>
+                                <a href="pricing-temp.html" class="button w-button">View all solutions</a>
                             </div>
                             <div class="home-solutions_grid">
                             <!-- Top of solutions code and image goes here-->
@@ -514,27 +539,33 @@
                                             class="home-solutions_layer front yellow">
                                             <div class="home-solutions_item-head">
                                                 <div class="home-solutions_item-head-label">
-                                                    <div class="label">Solution</div><img
+                                                    <!-- Mechanical Sewing Machines-->
+                                                    <div class="label">Mechanical Machines</div><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdb85d740ac1a54de3fdc1_icon-grid.svg"
                                                         loading="lazy" alt="" class="home-solutions_icon" />
                                                 </div>
-                                                <h3 class="heading-style-h6">Developing data-driven campaigns across
-                                                    platforms</h3>
+                                                <h3 class="heading-style-h6">Singer 221 Featherweight</h3>
+                                                <h3 class="heading-style-h6">Brother XL2600i</h3>
+                                                <h3 class="heading-style-h6">and much more...</h3>
                                             </div>
                                             <div data-w-id="674f1300-d232-0825-f864-42134210b7c9"
                                                 class="home-solutions_action-wrap">
-                                                <div class="home-solutions_action-text white">Discover solution</div>
+                                                <div class="home-solutions_action-text white">See More 👉</div>
                                                 <div class="home-solutions_arrow-wrap"><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66c646eb8427f666c549d6c1_arrow.svg"
                                                         loading="lazy" alt="arrow pointing right icon"
                                                         class="home-solutions_arrow" /></div>
                                             </div>
                                             <div class="home-solutions_image-wrap"><img
-                                                    src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc089c1f9a68e096be4e6_pexels-laura-villela-brasil-438615876-27308773.webp"
+                                                    src="images/mechanical-sewing-machines-sewllo.webp"
                                                     loading="lazy"
                                                     sizes="(max-width: 767px) 100vw, (max-width: 991px) 45vw, 30vw"
-                                                    srcset="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc089c1f9a68e096be4e6_pexels-laura-villela-brasil-438615876-27308773-p-500.webp 500w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc089c1f9a68e096be4e6_pexels-laura-villela-brasil-438615876-27308773-p-800.webp 800w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc089c1f9a68e096be4e6_pexels-laura-villela-brasil-438615876-27308773-p-1080.webp 1080w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc089c1f9a68e096be4e6_pexels-laura-villela-brasil-438615876-27308773.webp 1280w"
-                                                    alt="A close up of a person wearing a ring."
+                                                    srcset="images/mechanical-sewing-machines-sewllo-500.webp 500w,
+                                                            images/mechanical-sewing-machines-sewllo-800.webp 800w, 
+                                                            images/mechanical-sewing-machines-sewllo-1080.webp 1080w, 
+                                                            images/mechanical-sewing-machines-sewllo.webp 1280w"
+                                                    alt="Popular mechanical sewing machines (A Singer 221 Featherweight, a Brother XL2600i,
+                                                    and a Janome HD3000)"
                                                     class="home-solutions_image" />
                                                 <div class="home-solutions_image-gradient"></div>
                                             </div>
@@ -543,13 +574,18 @@
                                             class="home-solutions_layer back yellow">
                                             <div class="home-solutions_item-head">
                                                 <div class="home-solutions_item-head-label">
-                                                    <div class="label">Solution</div><img
+                                                    <div class="label">Mechanical Machines</div><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdb85d740ac1a54de3fdc1_icon-grid.svg"
                                                         loading="lazy" alt="" class="home-solutions_icon" />
                                                 </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                                    varius enim in eros elementum tristique. Duis cursus, mi quis
-                                                    viverra ornare, eros dolor.</p>
+                                                <p>We do major repairs and maintenance on all mechanical brands</p>
+                                                <ul>
+                                                    <li>Common Repairs:</li>
+                                                    <ul>
+                                                        <li>Needle thread tension problems</li>
+                                                        <li>Bobbin issues (misalignment or jamming)</li>
+                                                    </ul>
+                                                </ul>
                                             </div>
                                             <div data-w-id="674f1300-d232-0825-f864-42134210b7d6"
                                                 class="home-solutions_action-wrap">
@@ -570,26 +606,30 @@
                                             class="home-solutions_layer front blue">
                                             <div class="home-solutions_item-head">
                                                 <div class="home-solutions_item-head-label">
-                                                    <div class="label">Solution</div><img
+                                                    <div class="label">Electronic Machines</div><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdb85d740ac1a54de3fdc1_icon-grid.svg"
                                                         loading="lazy" alt="" class="home-solutions_icon" />
                                                 </div>
-                                                <h3 class="heading-style-h6">Producing high-quality content that aligns
-                                                    with SEO best practices</h3>
+                                                <h3 class="heading-style-h6">Brother SE600</h3>
+                                                <h3 class="heading-style-h6">Singer Quantum Stylist 9960</h3>
+                                                <h3 class="heading-style-h6">and much more...</h3>
                                             </div>
                                             <div data-w-id="61f64f4d-8919-a499-59ea-d22b707caf48"
                                                 class="home-solutions_action-wrap">
-                                                <div class="home-solutions_action-text white">Discover solution</div>
+                                                <div class="home-solutions_action-text white">See More 👉</div>
                                                 <div class="home-solutions_arrow-wrap"><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66c646eb8427f666c549d6c1_arrow.svg"
                                                         loading="lazy" alt="arrow pointing right icon"
                                                         class="home-solutions_arrow" /></div>
                                             </div>
                                             <div class="home-solutions_image-wrap"><img
-                                                    src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc172720632effb1eb63c_pexels-buro-millennial-636760-1438081.webp"
+                                                    src="images/electronic-machine-repair-sewllo.webp"
                                                     loading="lazy"
                                                     sizes="(max-width: 767px) 100vw, (max-width: 991px) 45vw, 30vw"
-                                                    srcset="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc172720632effb1eb63c_pexels-buro-millennial-636760-1438081-p-500.webp 500w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc172720632effb1eb63c_pexels-buro-millennial-636760-1438081-p-800.webp 800w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc172720632effb1eb63c_pexels-buro-millennial-636760-1438081-p-1080.webp 1080w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc172720632effb1eb63c_pexels-buro-millennial-636760-1438081.webp 1279w"
+                                                    srcset="images/electronic-machine-repair-sewllo-500.webp 500w,
+                                                            images/electronic-machine-repair-sewllo-800.webp 800w,
+                                                            images/electronic-machine-repair-sewllo-1080.webp 1080w,
+                                                            images/electronic-machine-repair-sewllo.webp 1279w"
                                                     alt="A man sitting on a bench using a laptop computer."
                                                     class="home-solutions_image" />
                                                 <div class="home-solutions_image-gradient"></div>
@@ -599,13 +639,18 @@
                                             class="home-solutions_layer back blue">
                                             <div class="home-solutions_item-head">
                                                 <div class="home-solutions_item-head-label">
-                                                    <div class="label">Solution</div><img
+                                                    <div class="label">Electronic Machines</div><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdb85d740ac1a54de3fdc1_icon-grid.svg"
                                                         loading="lazy" alt="" class="home-solutions_icon" />
                                                 </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                                    varius enim in eros elementum tristique. Duis cursus, mi quis
-                                                    viverra ornare, eros dolor.</p>
+                                                <p>We do major repairs and maintenance on all electronic machines</p>
+                                                <ul>
+                                                    <li>Common Repairs:</li>
+                                                    <ul>
+                                                        <li>Electronic control panel malfunctions</li>
+                                                        <li>Issues with the motor or circuit board</li>
+                                                    </ul>
+                                                </ul>
                                             </div>
                                             <div data-w-id="61f64f4d-8919-a499-59ea-d22b707caf58"
                                                 class="home-solutions_action-wrap">
@@ -626,27 +671,31 @@
                                             class="home-solutions_layer front">
                                             <div class="home-solutions_item-head">
                                                 <div class="home-solutions_item-head-label">
-                                                    <div class="label">Solution</div><img
+                                                    <div class="label">Vintage Machines</div><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdb85d740ac1a54de3fdc1_icon-grid.svg"
                                                         loading="lazy" alt="" class="home-solutions_icon" />
                                                 </div>
-                                                <h3 class="heading-style-h6">Managing and optimizing social media
-                                                    channels to build engagement</h3>
+                                                <h3 class="heading-style-h6">Singer 15</h3>
+                                                <h3 class="heading-style-h6">White Rotary</h3>
+                                                <h3 class="heading-style-h6">and much more...</h3>
                                             </div>
                                             <div data-w-id="7592ec06-450c-1a65-bad1-04940c0a71d0"
                                                 class="home-solutions_action-wrap">
-                                                <div class="home-solutions_action-text white">Discover solution</div>
+                                                <div class="home-solutions_action-text white">See More 👉</div>
                                                 <div class="home-solutions_arrow-wrap"><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66c646eb8427f666c549d6c1_arrow.svg"
                                                         loading="lazy" alt="arrow pointing right icon"
                                                         class="home-solutions_arrow" /></div>
                                             </div>
                                             <div class="home-solutions_image-wrap"><img
-                                                    src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc22f20352e7c549a58f9_pexels-tim-samuel-6697318.webp"
+                                                    src="images/vintage-sewing-machine.webp"
                                                     loading="lazy"
                                                     sizes="(max-width: 767px) 100vw, (max-width: 991px) 45vw, 30vw"
-                                                    srcset="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc22f20352e7c549a58f9_pexels-tim-samuel-6697318-p-500.webp 500w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc22f20352e7c549a58f9_pexels-tim-samuel-6697318-p-800.webp 800w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc22f20352e7c549a58f9_pexels-tim-samuel-6697318-p-1080.webp 1080w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdc22f20352e7c549a58f9_pexels-tim-samuel-6697318.webp 1280w"
-                                                    alt="A woman sitting on a bed looking at a cell phone."
+                                                    srcset="images/vintage-sewing-machine.webp 500w,
+                                                            images/vintage-sewing-machine.webp 800w,
+                                                            images/vintage-sewing-machine.webp 1080w,
+                                                            images/vintage-sewing-machine.webp 1280w"
+                                                    alt="A vintage Singer sewing machine"
                                                     class="home-solutions_image" />
                                                 <div class="home-solutions_image-gradient"></div>
                                             </div>
@@ -655,13 +704,18 @@
                                             class="home-solutions_layer back">
                                             <div class="home-solutions_item-head">
                                                 <div class="home-solutions_item-head-label">
-                                                    <div class="label">Solution</div><img
+                                                    <div class="label">Vintage Machines</div><img
                                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cdb85d740ac1a54de3fdc1_icon-grid.svg"
                                                         loading="lazy" alt="" class="home-solutions_icon" />
                                                 </div>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                                                    varius enim in eros elementum tristique. Duis cursus, mi quis
-                                                    viverra ornare, eros dolor.</p>
+                                                <p>We do major repairs and maintenance on all vintage machines</p>
+                                                <ul>
+                                                    <li>Common Repairs:</li>
+                                                    <ul>
+                                                        <li>Rust and corrosion in metal parts</li>
+                                                        <li>Worn-out gears or internal parts due to age</li>
+                                                    </ul>
+                                                </ul>
                                             </div>
                                             <div data-w-id="7592ec06-450c-1a65-bad1-04940c0a71e0"
                                                 class="home-solutions_action-wrap">
@@ -683,9 +737,10 @@
                 <div data-w-id="b5dd600a-f3c9-cc32-e59c-a99d3f0022ea" class="cta-version-1_wrapper">
                     <div class="cta-version-1_sticky">
                         <div class="cta-version-1_images"><img sizes="(max-width: 991px) 112px, 646.390625px"
-                                srcset="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d0dc17b116bb2a191be3fa_1-p-500.webp 500w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d0dc17b116bb2a191be3fa_1.webp 600w"
+                                srcset="images/sewllo-vintage-singer-600.webp 500w,
+                                images/sewllo-vintage-singer-600.webp 600w"
                                 alt=""
-                                src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d0dc17b116bb2a191be3fa_1.webp"
+                                src="images/sewllo-vintage-singer-600.webp"
                                 loading="lazy" class="cta-version-1_image _1" /><img
                                 sizes="(max-width: 991px) 96px, 640px"
                                 srcset="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66e1d79a103ea22bc93eab01_2-p-500.webp 500w, https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66e1d79a103ea22bc93eab01_2.webp 600w"
@@ -724,11 +779,17 @@
                                 loading="lazy" class="cta-version-1_image _8" />
                             <div class="cta-version-1_content">
                                 <div class="text-align-center">
-                                    <h2 class="heading-style-h3 display-inline">Transform engagement into real</h2><img
+                                    <h2 class="heading-style-h3 display-inline">Let's get you back to sewing</h2>
+                                    <!-- Hand Emoji Link & HTML
+                                    <img
                                         src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d0da26881b3dbc09a35b95_victory-hand_270c-fe0f.webp"
-                                        loading="lazy" alt="victory hand emoji icon" class="icon-medium" />
+                                        loading="lazy" alt="victory hand emoji icon" class="icon-medium"
+                                    />
+                                    -->
+                                    <!-- Second Heading
                                     <div class="heading-style-h3 display-inline">clients</div>
-                                </div><a href="/contact/2" class="button is-large w-button">Sign up for a demo</a>
+                                    -->
+                                </div><a href="tel:+14422691546" class="button is-large w-button">Repair my Machine</a>
                             </div>
                         </div>
                     </div>
@@ -752,20 +813,23 @@
                                 <!-- Text and label for the newsletter section -->
                                 <div class="footer_newsletter-text-wrap">
                                     <div class="footer_newsletter-text">
-                                        Never miss an opportunity again
+                                    Stay updated with maintenance tips that will save you another repair trip
                                     </div>
                                     <!-- Backhand pointing right icon -->
                                     <img src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66d0d63ea05e27dc8ed8b0d9_backhand-index-pointing-right_1f449.webp"
                                         loading="lazy" alt="backhand emoji icon" class="icon-small" />
                                     <div class="footer_newsletter-label-wrap">
+                                        <!-- Remove Client Label-->
+                                        <!--
                                         <div class="label">Client</div>
+                                        -->
                                     </div>
                                 </div>
 
                                 <!-- Newsletter subscription form -->
                                 <div class="footer_newsletter-form-wrapper">
                                     <div class="footer_newsletter-form-text">
-                                        Subscribe to our newsletter
+                                        Subscribe to our monthly maintenance tips newsletter
                                     </div>
                                     <div class="footer_newsletter-form-block w-form">
                                         <!-- Form for newsletter subscription -->
@@ -797,12 +861,12 @@
                                     <div class="footer_links-group">
                                         <div class="footer_links-group-label">Pages</div>
                                         <div class="footer_links-list _2">
-                                            <a href="/" aria-current="page" class="footer_link w--current">Home</a>
-                                            <a href="/cases" class="footer_link">Cases</a>
-                                            <a href="/about" class="footer_link">About</a>
+                                            <a href="index.html" aria-current="page" class="footer_link w--current">Home</a>
+                                            <a href="pricing-temp.html" class="footer_link">Cases</a>
+                                            <a href="about.html" class="footer_link">About</a>
                                             <a href="/pricing-temp.html" class="footer_link">Pricing</a>
-                                            <a href="/shop" class="footer_link">Shop</a>
-                                            <a href="/faq" class="footer_link">FAQ</a>
+                                            <a href="pricing-temp.html" class="footer_link">Shop</a>
+                                            <a href="faq.html" class="footer_link">FAQ</a>
                                         </div>
                                     </div>
 
@@ -810,9 +874,9 @@
                                     <div class="footer_links-group">
                                         <div class="footer_links-group-label">Features</div>
                                         <div class="footer_links-list">
-                                            <a href="/features/1" class="footer_link">Features 1</a>
-                                            <a href="/features/2" class="footer_link">Features 2</a>
-                                            <a href="/features/3" class="footer_link">Features 3</a>
+                                            <a href="" class="footer_link">Features 1</a>
+                                            <a href="" class="footer_link">Features 2</a>
+                                            <a href="" class="footer_link">Features 3</a>
                                         </div>
                                     </div>
 
@@ -820,9 +884,9 @@
                                     <div class="footer_links-group">
                                         <div class="footer_links-group-label">Solutions</div>
                                         <div class="footer_links-list">
-                                            <a href="/solutions/1" class="footer_link">Solutions 1</a>
-                                            <a href="/solutions/2" class="footer_link">Solutions 2</a>
-                                            <a href="/solutions/3" class="footer_link">Solutions 3</a>
+                                            <a href="" class="footer_link">Solutions 1</a>
+                                            <a href="" class="footer_link">Solutions 2</a>
+                                            <a href="" class="footer_link">Solutions 3</a>
                                         </div>
                                     </div>
 
@@ -830,9 +894,9 @@
                                     <div class="footer_links-group">
                                         <div class="footer_links-group-label">Contact</div>
                                         <div class="footer_links-list">
-                                            <a href="/contact/1" class="footer_link">Contact 1</a>
-                                            <a href="/contact/2" class="footer_link">Contact 2</a>
-                                            <a href="/contact/3" class="footer_link">Contact 3</a>
+                                            <a href="" class="footer_link">Contact 1</a>
+                                            <a href="" class="footer_link">Contact 2</a>
+                                            <a href="" class="footer_link">Contact 3</a>
                                         </div>
                                     </div>
                                 </div>
@@ -842,19 +906,19 @@
                                     <div class="footer_links-group">
                                         <div class="footer_links-group-label">Social</div>
                                         <div class="footer_social-links">
-                                            <a href="http://facebook.com" class="footer_social-link w-inline-block">
+                                            <a href="" class="footer_social-link w-inline-block">
                                                 <img src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cf1f2fdc7d863b14da7b00_icon-face.svg"
                                                     loading="lazy" alt="Facebook icon" class="footer_social-icon" />
                                             </a>
-                                            <a href="http://instagram.com" class="footer_social-link w-inline-block">
+                                            <a href="" class="footer_social-link w-inline-block">
                                                 <img src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cf1f512a27cddd75250c2e_icon-insta.svg"
                                                     loading="lazy" alt="Instagram icon" class="footer_social-icon" />
                                             </a>
-                                            <a href="http://linkedin.com" class="footer_social-link w-inline-block">
+                                            <a href="" class="footer_social-link w-inline-block">
                                                 <img src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66cf1f5df18a1c6e6e9ea79f_icon-linkedin.svg"
                                                     loading="lazy" alt="LinkedIn icon" class="footer_social-icon" />
                                             </a>
-                                            <a href="http://x.com" class="footer_social-link w-inline-block">
+                                            <a href="" class="footer_social-link w-inline-block">
                                                 <img src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/66bbc417df501b935e5155cc_social-x.svg"
                                                     loading="lazy" alt="X.com icon" class="footer_social-icon" />
                                             </a>
@@ -864,11 +928,14 @@
                             </div> <!-- End of footer links -->
 
                         </div> <!-- End of footer content -->
-
+                        
                         <!-- Legal information section -->
+                        <!--
                         <div class="footer_legal">
                             <div class="footer_legal-content">
+                            -->
                                 <!-- Legal text with links to Webflow and template supplier -->
+                                <!--
                                 <div class="footer_legal-text">
                                     © Engage Template — Powered by 
                                     <a href="https://webflow.com/" target="_blank" class="footer_legal-link">Webflow</a> |
@@ -877,14 +944,16 @@
                                         template.supply
                                     </a>
                                 </div>
+                            -->
                                 <!-- Legal links for Style Guide, Licenses, and Changelog -->
+                                <!--
                                 <div class="footer_legal-links">
                                     <a href="/template/style-guide" class="footer_legal-link">Style Guide</a>
                                     <a href="/template/licenses" class="footer_legal-link">Licenses</a>
                                     <a href="/template/changelog" class="footer_legal-link">Changelog</a>
                                 </div>
                             </div>
-                        </div> <!-- End of footer legal -->
+                        </div>--> <!-- End of footer legal -->
 
                     </div> <!-- End of footer component -->
                 </div> <!-- End of container medium -->
@@ -895,7 +964,7 @@
     <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=66bbc417df501b935e5152c6"
         type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
         crossorigin="anonymous"></script>
-    <script src="https://cdn.prod.website-files.com/66bbc417df501b935e5152c6/js/engage-template.43cf288cb.js"
+    <script src="js/index-script.js"
         type="text/javascript"></script>
 <!-- JS Scripts End -->
 </body>
