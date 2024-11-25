@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:   # You can use this line to block specific directories, if needed.
+Sitemap: https://sewllo.com/sitemap.xml
